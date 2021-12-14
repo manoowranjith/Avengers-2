@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:10px;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+    text-align: center;
+}
+body{
+    width: 100vw;
+}
+img{
+    width: 150px;
+    height: 200px;
+}
+.player
+{
+    /* margin:10vh 0vw; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
+}
+.lucas
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    margin-top:10px;
+    margin-left: 10px;
+    justify-content: end;
+}
+.dustin
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    margin-top:10px;
+    margin-right: 10px;
+}
+
+
